@@ -1,0 +1,73 @@
+{
+
+    "name": "𝄟🌹MAMBA LOGGER🌹𝄟",
+
+    "description": "𝐓𝐆 𝐁𝐎𝐓𝐒 𝐋𝐎𝐆𝐆𝐄𝐑 ( #𝐍𝐄𝐖𝐆𝐑𝐎𝐔𝐏 & #𝐍𝐄𝐖𝐔𝐒𝐄𝐑)",
+
+    "logo": "https://te.legra.ph/file/.jpg",
+
+    "keywords": ["telegram", "auto-filter"],
+
+    "stack": "container",
+
+    "website": "https://github.com/FantasticSukhi/MAMBA-LOGGER",
+
+    "repository": "https://github.com/FantasticSukhi/MAMBA-LOGGER",
+
+    "env": {
+
+        
+
+        "BOT_TOKEN": {
+
+            "description": "𝐘𝐨𝐮𝐫 𝐁𝐨𝐭 𝐓𝐨𝐤𝐞𝐧, 𝐆𝐞𝐭 𝐅𝐫𝐨𝐦 @ʙᴏᴛғᴀᴛʜᴇʀ",
+
+            "required": true
+
+        },
+
+        "API_ID": {
+
+            "description": "𝐆𝐞𝐭 𝐓𝐡𝐢𝐬 𝐕𝐚𝐥𝐮𝐞 𝐅𝐫𝐨𝐦:- https://my.telegram.org",
+
+            "required": true
+
+        },
+
+        "API_HASH": {
+
+            "description": "𝐆𝐞𝐭 𝐓𝐡𝐢𝐬 𝐕𝐚𝐥𝐮𝐞 𝐅𝐫𝐨𝐦 https://my.telegram.org",
+
+            "required": true
+
+        },
+
+        "ADMINS": {
+
+            "description": "𝐎𝐰𝐧𝐞𝐫 𝐈𝐝 & 𝐒𝐮𝐝𝐨 𝐈𝐝 (𝐅𝐨𝐫 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭) 𝐅𝐢𝐥𝐥 𝐌𝐮𝐥𝐭𝐢𝐩𝐥𝐞 𝐈𝐝 𝐁𝐲 𝐆𝐢𝐯𝐢𝐧𝐠 𝐒𝐩𝐚𝐜𝐞 𝐀𝐟𝐭𝐞𝐫 1 𝐈𝐝..",
+
+            "required": true
+
+        },
+
+        "LOG_CHANNEL": {
+
+            "description": "𝐆𝐢𝐯𝐞 𝐓𝐡𝐞 𝐋𝐨𝐠 𝐆𝐫𝐨𝐮𝐩 𝐈𝐝 𝐖𝐡𝐞𝐫𝐞 𝐘𝐨𝐮𝐫 𝐁𝐨𝐭 𝐒𝐭𝐚𝐲 𝐀𝐥𝐰𝐚𝐲𝐬 𝐀𝐝𝐦𝐢𝐧",
+
+            "required": true                              
+
+        },
+
+        "DATABASE_URI": {
+
+            "description": "𝐘𝐨𝐮𝐫 𝐌𝐨𝐧𝐠𝐨 𝐃𝐛",
+
+            "required": true
+
+        }
+    },
+    "buildpacks":
+        [
+            {"url": "heroku/python"}
+        ]      
+}
